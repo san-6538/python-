@@ -1,7 +1,7 @@
 
 
-standard_input = '10'
-n = int(input("enter a number:"))
+
+n = 10
 
 if n <= 1:
     print("not prime")
@@ -13,7 +13,7 @@ else:
             break
         
 if is_prime:
-    print("prime")
+    print("prime")  
 else:
     print("not prime")
     
